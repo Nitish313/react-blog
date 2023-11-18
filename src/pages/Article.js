@@ -3,13 +3,14 @@ import { useParams } from 'react-router-dom'
 
 import articleContent from './article-content'
 import Articles from '../components/Articles'
+import NotFound from './NotFound'
 
 const Article = () => {
   const { name } = useParams()
   const article = articleContent.find((article) => article.name === name)
   const otherArticles = articleContent.filter(article => article.name !== name)
 
-  if(!article) return <h1>Article does not exist</h1>
+  if(!article) return <NotFound />
   return(
     <div>
       <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-600'>
