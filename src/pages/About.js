@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Home = () => {
+const About = () => {
   return (
     <div className='mb-20'>
       <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-600'>
-        Hello, welcome to this blog
+        About
       </h1>
       <p className='mx-auto leading-relaxed text-base mb-4'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, deserunt autem. Provident a sit sunt reprehenderit exercitationem ab nostrum libero ullam quaerat! Excepturi, alias delectus nulla nobis, consequuntur optio enim assumenda nam amet maiores, pariatur quis dicta. Esse, quod nobis accusamus possimus laborum nihil ad sunt. Eius, beatae autem. Veritatis!
@@ -17,12 +17,8 @@ const Home = () => {
       <p className='mx-auto leading-relaxed text-base mb-4'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, est doloremque. Porro adipisci eveniet aspernatur quae voluptate unde iusto obcaecati impedit quis perspiciatis qui facere fuga nam placeat, officia a ipsam. Nihil veritatis repellat alias et fugiat dolores architecto? Itaque magni ipsam aliquam harum velit dolore quas, minima, eligendi deserunt eius pariatur facere illo. Ipsam, sint exercitationem aut illum sed velit beatae, suscipit quia earum, veritatis dolorum delectus dolores deserunt dolor sapiente tempore. Minima sed sunt, repudiandae odio laborum eveniet ab omnis quae soluta blanditiis velit fugiat adipisci nam quaerat quos nihil delectus accusamus voluptatibus veniam fugit. Exercitationem, minima architecto.
       </p>
-
-      <p><a href='/about'>About</a></p>
-      <p><a href='/articles'>Articles</a></p>
-      <p><a href='/article'>Article</a></p>
     </div>
   )
 }
 
-export default Home
+export default About
